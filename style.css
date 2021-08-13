@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: lightcyan;
+    min-height: 100vh;
+    width: 60vw;
+    margin: auto;
+}
+.upper{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: space-around;
+}
+.lower{
+    display: flex;
+    /* background-color: darkcyan; */
+}
+.my-photo{
+    height: 250px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 3px white dotted;
+}
+.upper-right{
+    /* background-color: lightseagreen; */
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.upper-right p{
+    font-size: 1.15rem;
+    padding-bottom: 5px;
+}
+.upper-right i{
+    font-size: 1rem;
+    margin: 0 5px;
+}
+.lower-left, .lower-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.lower-right{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.education-1{
+    /* background-color: limegreen; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+.education-1 p{
+    font-size: 1.2rem;
+    color: purple;
+
+}
+.education-1 p span{
+    color: black;
+}
+.fa-school{
+    margin: 0 8px 0 0;
+}
+hr{
+    height: 1px;
+    margin: 5px 0;
+}
+.education h2{
+    display: flex;
+    margin-top: 20px;
+    background-color: cyan;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+.hobbies{
+    /* background-color: white; */
+    min-height: 100px;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px 15px;
+    /* width: 30vw; */
+    /* background-color: cyan; */
+}
+.hobbies span{
+    background-color: rgba(245, 245, 245, 0.89);
+    box-shadow: 0 0 5px 0 rgb(160, 160, 160);
+    color: black !important;
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: white;
+}
+.hobbies span:hover{
+    cursor: default;
+}
+#hobbies-title{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.experience{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    margin-top: 20px;
+}
+.internship{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 30px;
+}
+.intern-duration{
+    margin: -10px 30px 0 ;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.ecell{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 20px 30px 0;
+}
+.ecell-duration{
+    margin: 5px 30px 0 ;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+#projects-title{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.projects{
+    /* height: 90px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: darkcyan; */
+}
+.projects a{
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.89);
+    box-shadow: 0 0 5px 0 rgb(160, 160, 160);
+    color: black !important;
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: white;
+    margin: 7px 10px;
+}
+#skills-title{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills span{
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.89);
+    box-shadow: 0 0 5px 0 rgb(160, 160, 160);
+    color: black !important;
+    padding: 3px 5px;
+    border-radius: 3px;
+    color: white;
+    margin: 7px 10px;
+}
+.social{
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.social a{
+    text-decoration: none;
+    color: blue;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    transition: 0.4s;
+}
+.social a:hover{
+    color: rgb(1, 1, 88);
+    font-size: 1.7rem;
+}
+.final{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+a{
+  color: blue;  text-decoration: none;
+
+}
